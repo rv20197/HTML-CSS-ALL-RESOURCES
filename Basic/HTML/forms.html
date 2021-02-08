@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms</title>
+    </head>
+
+    <body>
+        <form action="main.py" method="POST"> <!-- 1. Action will send the data we get from FORM to the file/script we specified
+                                                2. Method parameter is post which will send the data  -->
+
+        <label for="First Name"> First Name
+            <input name = "First_Name" type="text" placeholder="First Name">
+        </label>   
+
+        <br>
+        <br>
+
+        <label for="Last Name"> Last Name
+            <input name = "Last_Name" type="text" placeholder="Last Name">
+        </label>
+
+        <br>
+        <br>
+
+
+        <label for="Email-ID"> Email-ID       
+            <input name = "email" type="email" placeholder="Email-ID">
+        </label>
+
+        <br>
+        <br>
+
+        <label for="Password"> Password
+            <input name = "password" type="password" placeholder="Password"> 
+        </label>
+         
+        <br>
+        <br>
+            <input name = "file" type="file">
+
+        <br>
+        <br>
+            <input type="submit">
+
+        </form>
+    </body>
+</html>

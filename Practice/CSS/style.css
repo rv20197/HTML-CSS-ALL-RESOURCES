@@ -1,0 +1,43 @@
+#Page_Title{
+    text-align: center;
+}
+
+#picture_container{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto ;
+}
+
+#image {
+    width: 100%;
+    border-radius: 30px;
+}
+
+#picture_css{
+    width: 1200px;
+    height: 630px;
+    background-image: url(../images/logo.png);
+    margin: 0 auto;
+}
+
+#hovers{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(../images/logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+#hovers h2{
+    text-align: center;
+}
+
+#hovers:hover{
+    background-color: chocolate;
+    border: 1px solid blue;
+    color: cornflowerblue;
+    opacity: 1;
+}

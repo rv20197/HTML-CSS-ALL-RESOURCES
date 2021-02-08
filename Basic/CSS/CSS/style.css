@@ -1,0 +1,40 @@
+/*Tag Specific*/
+p{
+    color: blue;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: medium;
+} 
+
+
+/* Multiple Tags, Heading, Body, div*/
+
+/* p,h2{
+    color: blue;
+    font-weight: bold;  
+}
+
+h1{
+    color: coral;
+}
+
+ body{
+    background: cornflowerblue;
+} 
+
+div p {
+    color: rgb(24, 81, 128);
+} */
+
+/* ID (It's always unique and can't be applied to another tag)*/
+#Second_Para{
+    color: red;
+}
+/* Class (Same Common class can be used for multiple tags)*/
+.Third_Para{
+    color:green
+}
+
+
